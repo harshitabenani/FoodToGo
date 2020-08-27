@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+
+        android:id="@+id/imgBullet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_bullet"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="20dp" />
+
+    <RelativeLayout
+        android:layout_width="188dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtItemName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="30dp"
+            android:text="Mexican Baco"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtItemCostForOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtItemName"
+            android:layout_marginTop="7dp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="30dp"
+            android:text="Rs.220"
+            android:textSize="12sp"
+           />
+
+
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="#3D59BA"
+        android:fontFamily="sans-serif-medium"
+        android:text="ADD"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="5dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LogoutFragment"
+    android:background="#ffffff">
+
+
+
+    <TextView
+        android:id="@+id/txtPlaced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure
+         you want to
+         Logout?"
+        android:layout_marginTop="160dp"
+        android:padding="8dp"
+        android:textSize="50sp"
+        android:textColor="#1e1e1e"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtPlaced"
+        android:layout_marginTop="60dp"
+        android:text="YES"
+        android:textColor="#ffffff"
+        android:background="@color/colorFavourites"
+        android:layout_centerHorizontal="true"></Button>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnYes"
+        android:layout_marginTop="30dp"
+        android:text="CANCEL"
+        android:textColor="#ffffff"
+        android:background="@color/colorFavourites"
+        android:layout_centerHorizontal="true"></Button>
+
+
+
+
+</RelativeLayout>
